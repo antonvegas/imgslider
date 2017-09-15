@@ -1,4 +1,4 @@
-.slideInner{ 
+.slideInner{
     margin-left: 0px;
     height: 100%;
     display: flex;
@@ -19,7 +19,7 @@
     height: 10px;
     display: inline-block;
 }
- 
+
 .controlPosition li{
     float: left;
     width: 10px;
@@ -31,11 +31,7 @@
     margin-top: 10px;
     cursor: pointer;
 }
-
-.active{
-	border-color: #000; 
-	background-color: #000;
-}
+.active{border-color: #000; background-color: #000;}
 
 .sliderOfContent{
     position: relative;
