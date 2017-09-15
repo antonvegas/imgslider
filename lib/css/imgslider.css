@@ -1,0 +1,62 @@
+.slideInner{ 
+    margin-left: 0px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-item{
+    margin: 20px 0px;
+}
+
+.statusPosition{
+    text-align: center;
+}
+
+.controlPosition{
+	list-style: none;
+    height: 10px;
+    display: inline-block;
+}
+ 
+.controlPosition li{
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    border: 1px solid #333333;
+    overflow: hidden;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.active{
+	border-color: #000; 
+	background-color: #000;
+}
+
+.sliderOfContent{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.sliderOfContent .control{
+    position: absolute;
+    z-index: 2;
+    top: 45%;
+    opacity: .4;
+    cursor: pointer;
+}
+
+.sliderOfContent .control:hover{
+    opacity: 1;
+}
+
+.sliderOfContent .control.left{
+    left: 10px;
+}
+.sliderOfContent .control.right{
+    right: 10px;
+}
